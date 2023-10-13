@@ -1,0 +1,32 @@
+.withdwal-footer {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.withdwal-footer p {
+  text-align: start;
+}
+
+.withdwalSection {
+  margin-bottom: 100px;
+}
+
+.deposit-Body .bin-header {
+  background-color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #f66806;
+  font-weight: 600;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.deposit-Body .bin-header .left {
+  width: 40%;
+  text-align: start;
+}
+.deposit-Body .bin-header .right {
+  width: 40%;
+  text-align: end;
+}

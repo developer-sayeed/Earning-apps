@@ -1,0 +1,36 @@
+.footer-area {
+  background-color: #fff;
+  padding: 5px 20px;
+  position: fixed;
+  width: 536px;
+  bottom: 0px;
+}
+.footer-area ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.footer-area ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-area ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+.footer-area ul li a svg {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Responsive Code */
+
+@media only screen and (max-width: 768px) {
+  .footer-area {
+    width: 90vw;
+  }
+}

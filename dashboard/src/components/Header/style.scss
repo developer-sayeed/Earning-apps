@@ -1,0 +1,31 @@
+.headerSection {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  background-color: #fff;
+  width: 100%;
+
+  .fortend {
+    a {
+      color: #333;
+      font-size: 25px;
+    }
+  }
+  .Notication {
+    a {
+      color: black;
+      font-size: 25px;
+    }
+  }
+  .user {
+    a {
+      color: #333;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    img {
+      width: 40px !important;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #f1f2f7 !important;
+  overflow-x: hidden;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none !important;
+  color: #000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rdt_TableHeadRow {
+  font-size: 18px;
+  background-color: #e5e5e5 !important;
+}
+.rdt_TableCell {
+  font-size: 16px;
+}
+.eDKzGB {
+  width: 45px !important;
+}
+.lnugBR {
+  white-space: inherit !important;
+  text-align: center;
+}
+.bMVXuP div:first-child {
+  white-space: inherit !important;
+
+  text-overflow: inherit !important;
+}
+.fXsPjs {
+  width: auto !important;
+}
+.ktFKDf {
+  width: 150px !important;
+}

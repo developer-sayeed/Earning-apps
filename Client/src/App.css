@@ -1,0 +1,170 @@
+.main-home {
+}
+a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.main-home .banner img {
+  width: 100%;
+  height: 200px;
+}
+.main-home .marquee-div {
+  display: flex;
+  background-color: #febfb0;
+  padding: 10px 20px;
+}
+.main-home .marquee-div svg {
+  padding-right: 10px;
+}
+.main-home .module {
+  padding: 8px 8px 0px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.main-home .module > div {
+  width: 49%;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 15px 0px 8px 15px;
+  margin-bottom: 8px;
+  min-height: 85px;
+  overflow: auto;
+}
+
+.main-home .module a {
+  background: white;
+  border-radius: 8px;
+  margin: 8px 0px 0px 10px;
+  padding: 3px 5px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  color: #333;
+}
+
+.home .module div.title {
+  margin: 5px 0px 0px 10px;
+}
+.main-home .module {
+  display: flex;
+}
+.main-home .module > div.m1 {
+  background: url(https://f.malloss.com/theme/v0/m1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-home .module > div.m2 {
+  background: url(https://f.malloss.com/theme/v0/m2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-home .module > div.m3 {
+  background: url(https://f.malloss.com/theme/v0/m3.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-home .module > div.m4 {
+  background: url(https://f.malloss.com/theme/v0/m4.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.mission {
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.module-list {
+  padding: 8px 8px 30px 8px;
+}
+
+.module-list .listv0 {
+  padding: 8px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.module-list .listv0 .item {
+  width: 49%;
+  margin-bottom: 8px;
+  position: relative;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.module-list .listv0 .active {
+  border: 1px solid #d7d9e0;
+}
+
+.module-list .listv0 .item .img-swap {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.module-list .listv0 .item .img-swap img {
+  width: 180px;
+  height: 200px;
+  margin: 20px 0px;
+}
+
+.module-list .listv0 .item .img-swap div {
+  text-align: left;
+}
+
+.module-list .listv0 .vname {
+  text-align: left;
+  color: #272930;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.module-list .listv0 .info {
+  text-align: left;
+  font-size: 14px;
+  color: #272930;
+}
+
+.module-list .module-title {
+  color: #272930;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 4px 0px 0px 0px;
+  text-align: start;
+}
+
+.module-list .listv0 .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #272930;
+  top: 0px;
+  left: 0px;
+  opacity: 0.25;
+  border-radius: 3px;
+}
+
+.module-list .listv0 .lock {
+  background: url(https://f.malloss.com/theme/v0/lock.png) center no-repeat;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 30px);
+  top: 0px;
+  left: 0px;
+  background-size: 80px;
+  cursor: pointer;
+}
+
+.mtitle .action .kefu {
+  background: url(https://f.malloss.com/theme/v0/kefu.png) no-repeat center;
+  width: 60px;
+  height: 30px;
+  background-size: 20px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+/* Vip Page Css */

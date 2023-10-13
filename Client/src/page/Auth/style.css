@@ -1,0 +1,106 @@
+* {
+  font-family: "Poppins";
+}
+
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+  width: 20rem;
+  margin: auto;
+  height: 100vh;
+}
+.registationpage {
+  height: 100% !important;
+}
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+  width: 20rem;
+  margin: auto;
+  height: 100vh;
+}
+.screen-1 .logo {
+  padding: 1rem 0;
+  text-align: center;
+}
+.screen-1 .amazonform {
+  margin-bottom: 1rem;
+}
+.screen-1 .logo img {
+  width: 150px;
+}
+.screen-1 .email {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 5px;
+  color: #4d4d4d;
+}
+.screen-1 .email input {
+  outline-color: #3e4684;
+  border-color: #3e4684;
+}
+
+.screen-1 .password {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 5px;
+  color: #4d4d4d;
+  margin-top: 0.04em;
+}
+.screen-1 .password input {
+  outline-color: #3e4684;
+  border-color: #3e4684;
+}
+
+.screen-1 .password ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+}
+.screen-1 .login {
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  width: 100%;
+}
+.screen-1 .footer {
+  display: flex;
+  font-size: 0.7em;
+  color: #5e5e5e;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.screen-1 .footer span {
+  cursor: pointer;
+}
+.screen-1 .footer a {
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}

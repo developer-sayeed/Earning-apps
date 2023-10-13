@@ -1,0 +1,194 @@
+.earning-history {
+  background-color: #fff;
+}
+.mine-uinfo {
+  background: url(https://f.malloss.com/theme/v0/mine_top.png) no-repeat;
+  position: relative;
+  z-index: 1;
+  background-size: 100% 100%;
+}
+
+.mine-top {
+  padding: 20px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mine-top .left {
+  flex: 1;
+}
+
+.mine-top .login_id {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: start;
+}
+.mine-top .vip {
+  background: url(https://f.malloss.com/theme/v0/mine_vip.png) no-repeat;
+  background-size: 100% 100%;
+  padding-right: 8px;
+  color: white;
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  width: 70px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mine-top .ckeyswap,
+.mine-top .persion {
+  color: #939499;
+  font-size: 14px;
+  text-align: start;
+}
+
+.mine-top .go-icon:after {
+  margin-left: 10px;
+}
+.mine-uinfo .money-div {
+  background: url(https://f.malloss.com/theme/v0/mine_user.png) no-repeat;
+  background-size: 100% 90px;
+  z-index: 4;
+  position: relative;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  color: white;
+}
+
+.mine-uinfo .money-div > div {
+  flex: 1;
+  padding-left: 20px;
+}
+.mine-uinfo .money-div .first {
+  border-right: 1px solid #ffffff50;
+}
+
+.mine-uinfo .money-div .money {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mine-uinfo .money-div .m_bottom {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.mine-uinfo .money-div .tx-btn {
+  background-image: linear-gradient(90deg, #fff8ed, #ffcb94);
+  color: #f66806 !important;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.mine-uinfo .bottom {
+  width: 100%;
+  height: 11px;
+  position: absolute;
+  bottom: 0px;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 3;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 8px;
+  text-align: center;
+}
+
+.flex-row .flex-item > div:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  color: #272930;
+  margin-top: 8px;
+}
+
+.flex-row .flex-item > div {
+  color: #b1b1b1;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.flex-row:first-child {
+  border-bottom: 1px solid #d7d9e0;
+}
+
+.flex-row > div {
+  flex: 1;
+  border-right: 1px solid #d7d9e0;
+}
+
+.flex-row > div:last-child {
+  border-right: none;
+}
+
+.tab-mine .flex,
+.tab-fund_mine .flex {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-mine .flex > div,
+.tab-fund_mine .flex > div {
+  background: url(https://f.malloss.com/theme/v0/mine_tx.png) no-repeat;
+  width: 49%;
+  height: 65px;
+  background-size: 100% 100%;
+}
+.tab-mine .flex > div:first-child,
+.tab-fund_mine .flex > div:first-child {
+  background: url(https://f.malloss.com/theme/v0/mine_pay.png) no-repeat;
+  width: 49%;
+  height: 65px;
+  background-size: 100% 100%;
+}
+.tab-mine .flex .info1,
+.tab-fund_mine .flex .info1 {
+  color: #272930;
+  font-weight: 500;
+  margin: 14px 8px 8px 8px;
+}
+
+.profilepage > .tool-bar {
+  background-color: #fff;
+  padding-bottom: 60px;
+}
+.profilepage > .tool-bar ul {
+  padding: 0;
+  margin: 0;
+}
+.profilepage > .tool-bar ul li {
+  list-style: none;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+.profilepage > .tool-bar ul li a {
+  color: #272930;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+}
+.profilepage > .tool-bar ul li a .left {
+  color: #272930;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+}
+.profilepage > .tool-bar ul li a svg {
+  font-size: 18px;
+}

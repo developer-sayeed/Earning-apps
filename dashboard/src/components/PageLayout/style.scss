@@ -1,0 +1,12 @@
+.mainLayout {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  .sidebar-menu {
+    width: 20%;
+  }
+  .main-content {
+    width: 80%;
+    padding-right: 10px;
+  }
+}

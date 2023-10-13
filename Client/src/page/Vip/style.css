@@ -1,0 +1,104 @@
+.vip-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 10px;
+  margin-top: 5px;
+}
+.logo img {
+  width: 50px;
+}
+.vip-header .title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.vip-header .action {
+  font-weight: 500;
+  color: #333;
+  font-size: 16px;
+}
+.vip-header .action a {
+  background-image: linear-gradient(90deg, #fcab38, #fc880c);
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 18px;
+  color: white;
+  font-size: 13px;
+}
+.vip-item {
+  margin: 20px 10px 0px 10px;
+}
+.flex_v0 {
+  display: flex;
+}
+.vip-item .vip-main {
+  background: url(https://f.malloss.com/theme/v0/vipmain.png) no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 10px;
+}
+
+.vip-main .main-left {
+  flex: 1;
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: start;
+}
+
+.vip-main .main-left .name {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.vip-main .main-left > div {
+  margin-bottom: 10px;
+}
+
+.vip-main .main-left .info {
+  color: #939499;
+}
+
+.vip-main .main-left .join {
+  background-image: linear-gradient(90deg, #fcab38, #fc880c);
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 18px;
+  color: white;
+  font-size: 13px;
+  border: none;
+}
+
+.vip-main .main-right {
+  position: relative;
+}
+
+.vip-main .main-right img {
+  position: absolute;
+  right: 0px;
+  top: -18px;
+  width: 100px;
+}
+
+.vip-item .vip-earn > div {
+  flex: 1;
+}
+
+.vip-item .vip-earn {
+  margin: 0px 15px;
+  background-image: linear-gradient(0deg, #ffffff, #e5e5e5);
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.vip-earn .minfo {
+  color: #272930;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tab-vip .vip-table {
+  padding: 0px 0px 20px 0px;
+}
+
+.curVip .join {
+  opacity: 0;
+}
